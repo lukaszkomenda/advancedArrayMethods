@@ -13,5 +13,18 @@ public interface AdvancedArrayMethods {
     int[] shuffleArray(int[] array);
     int minValue(int[] array);
     int maxValue(int[] array);
-
+    int sumValueFromArray(int[] array);
+    int sumValueFromArrayMethodWithStream(int[] array);
+    int sumValueFromArrayMethodWithStreamAndObject(Integer[] array);
+    double averageValueFromArray(int[] array);
+    String characterArrayToString(Character[] array);
+    int[] charArrayToInt (char[] array);
+    int targetInArray(int[] array, int target);
+    int targetInArrayWithList(Integer[] array, int target);
+    int targetInArrayWithBinarySearch(int[] array, int target);
+    int targetInArrayWithIntStream(int[] array, int target);
+    int targetInArrayWithArrayUtils(int[] array, int target);
+    double medianArrayValues(int[] array);
+    int[] sumTwoArraysSameLength(int[] arr1, int[] arr2);
+    int[] sumTwoArraysSameLengthWithStream(int[] arr1, int[] arr2);
 }
